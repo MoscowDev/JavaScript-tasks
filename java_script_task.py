@@ -66,3 +66,42 @@ print()
 lower = "MICHAEL"
 for length in range(len(lower)):
     letter = lower[length]
+
+
+
+numberr = 456789
+numbers = [4, 5, 6, 7, 8]
+
+smallestDigit = numbers[0]
+
+counting = 0
+while counting < len(numbers):
+    if numbers[counting] < smallestDigit:
+        smallestDigit = numbers[counting]
+        counting += 1
+    counting += 1
+print("The smallest digit is:", smallestDigit)
+
+
+numberrr = 456789
+numberss = [4, 5, 6, 7, 8, 9]
+
+largestDigit = numberss[0]
+
+countin = 0
+while countin < len(numberss):
+    if numberss[countin] > largestDigit:
+        largestDigit = numberss[countin]
+        countin += 1
+    countin += 1
+print("The largest digit is:", largestDigit)
+
+
+numTwo = [1, 2, 3, 4, 5]
+summation = 0
+
+for coun in range(len(numTwo)):
+    summation += numTwo[coun]
+
+print("The sum of numbers is:", summation)
+

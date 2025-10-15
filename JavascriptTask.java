@@ -127,8 +127,50 @@ String lower = "MICHAEL";
 for(int length = 0; length < lower.length(); length ++){
 char letter = lower.charAt(length);
 
-}
+} 
 
+System.out.print(upper.toLowerCase());
+System.out.println();
+
+
+
+int numberr = 456789;
+int[] numbers = {4,5,6,7,8};
+
+int smallestDigit = numbers[0];
+
+int counting = 0; 
+for(counting = 0; counting < numbers.length; counting++) {
+if(numbers[counting] < smallestDigit){
+smallestDigit = numbers[counting];
+counting++;
+}
+}
+System.out.println("The smallest digit is: " + smallestDigit);
+
+
+int numberrr = 456789;
+int[] numberss = {4,5,6,7,8,9};
+
+int largestDigit = numberss[0];
+
+int countin = 0; 
+for(countin = 0; countin < numberss.length; countin++) {
+if(numberss[countin] > largestDigit){
+largestDigit = numberss[countin];
+countin++;
+}
+}
+System.out.println("The largest digit is: " + largestDigit);
+
+ int[] numTwo = {1, 2, 3, 4, 5};
+        int summation = 0;
+
+        for (int coun = 0; coun < numTwo.length; coun++) {
+            summation += numTwo[coun];
+        }
+
+        System.out.print("The sum of numbers is: " + summation);
 
 }
 }
